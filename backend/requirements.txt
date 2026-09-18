@@ -10,6 +10,6 @@ groq==0.4.1
 python-dotenv==1.0.1
 pyjwt==2.8.0
 passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-pytest==8.0.0
-httpx==0.26.0
+chromadb
+sentence-transformers
+python-multipart

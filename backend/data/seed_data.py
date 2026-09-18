@@ -11,6 +11,9 @@ from app.database import SessionLocal, engine, Base
 from app.models.models import Entity, Relationship, Evidence, StateCrimeRecord
 
 def seed_data():
+    # Create tables if they don't exist
+    Base.metadata.create_all(bind=engine)
+    
     db = SessionLocal()
     
     # 1. Clear existing data

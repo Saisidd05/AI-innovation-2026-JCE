@@ -20,3 +20,7 @@
 - **UI Removal**: Removed all previously generated UI component files and reset \App.tsx\ to a blank state as requested.
 
 - **Frontend Deletion**: Completely removed the entire \rontend/\ directory and all its contents as requested.
+
+- **Frontend Phase 1**: Bootstrapped Vite+React frontend. Implemented 'Obsidian Forensics' Tailwind CSS theme. Built Role-based authentication system with Zustand. Created dynamic AppShell (Sidebar, TopHeader) that filters routes based on user role.
+
+- **Frontend Phase 2**: Built core investigation tools. Created HackerAI chat interface with suggested queries. Built CSV Upload component with multi-stage processing simulation. Created Case Management and Evidence Locker grids with role-based action filtering.
