@@ -16,3 +16,5 @@
 - **[UI OVERHAUL]**: Replaced the basic UI with a highly attractive, premium dark mode design. Added glassmorphism elements, animated neon gradients, deep space backgrounds, and upgraded the typography to Google 'Inter' font to ensure high legibility and a non-AI-generated feel.
 
 - **Phase 3 & 9**: Created Pydantic validation schemas. Wrote \seed_data.py\ which parses the \NCRB_Table_1A.1.csv\ file, creates State nodes with crime data, and generates synthetic hackathon-ready intelligent relationship data (Entities and Edges) linked to the real State metrics.
+
+- **UI Removal**: Removed all previously generated UI component files and reset \App.tsx\ to a blank state as requested.
