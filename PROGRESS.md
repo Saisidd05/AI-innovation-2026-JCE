@@ -12,3 +12,5 @@
 - **[ERROR] Tailwind border class missing**: \The 'border-border' class does not exist.\`n- **[FIX]**: Overwrote \	ailwind.config.js\ to correctly extend the Tailwind theme with the shadcn CSS variables (border, background, foreground, etc.) so that classes like \order-border\ are correctly generated.
 
 - **Phase 12: Frontend Components**: Created the main structural layout in React including \GraphView.tsx\ (Cytoscape.js), \Timeline.tsx\, \EvidenceDrawer.tsx\, and \AiAssistant.tsx\ components. Updated \App.tsx\ to wire them together.
+
+- **[UI OVERHAUL]**: Replaced the basic UI with a highly attractive, premium dark mode design. Added glassmorphism elements, animated neon gradients, deep space backgrounds, and upgraded the typography to Google 'Inter' font to ensure high legibility and a non-AI-generated feel.
